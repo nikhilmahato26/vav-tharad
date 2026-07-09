@@ -30,7 +30,7 @@ const Home = () => {
       <BookingProcess />
       <Statistics />
       <Testimonials />
-      <Gallery />
+      {/* <Gallery /> */}
       <FAQ />
       <Contact />
       <Footer />

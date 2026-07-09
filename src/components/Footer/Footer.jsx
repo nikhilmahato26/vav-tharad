@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Compass, Mail, Phone, MapPin, Send } from 'lucide-react';
 import { brandInfo, featuredPackages } from '../../data/travelData';
 import { getVisaConsultLink, buildWhatsAppUrl } from '../../utils/whatsapp';
+import logo from '../../assets/logo.jpg';
 
 const Footer = () => {
   const [newsletterEmail, setNewsletterEmail] = useState('');
@@ -23,7 +24,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-primary-950 text-white/80 pt-20 pb-8 border-t border-primary-900 overflow-hidden relative">
+    <footer className="bg-[#020710] text-white/80 pt-20 pb-8 border-t border-primary-900 overflow-hidden relative">
       
       {/* Background soft lighting */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-secondary/5 rounded-full blur-[120px] pointer-events-none" />
@@ -65,9 +66,9 @@ const Footer = () => {
           
           {/* Column 1: Branding */}
           <div className="flex flex-col gap-6">
-            <a href="#home" className="flex items-center gap-2 group w-fit">
-              <div className="bg-secondary text-white p-2 rounded-xl">
-                <Compass className="w-5 h-5" />
+            <a href="#home" className="flex items-center gap-3 group w-fit">
+              <div className="w-12 h-12 rounded-full overflow-hidden border border-white/10 transition-colors">
+                <img src={logo} alt="Vav-Tharad Tourism Logo" className="w-full h-full object-cover" />
               </div>
               <span className="font-heading font-extrabold text-xl tracking-tight text-white group-hover:text-secondary transition-colors">
                 VAV-THARAD

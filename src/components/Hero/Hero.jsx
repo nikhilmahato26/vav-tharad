@@ -74,7 +74,7 @@ const Hero = () => {
         >
           {HERO_SLIDES.map((slide, index) => (
             <SwiperSlide key={index} className="relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-r from-primary-900/50 to-primary-950/20 z-10" />
+              <div className="absolute inset-0 bg-gradient-to-r from-primary-900/50 to-[#020710]/20 z-10" />
               <img
                 src={slide.image}
                 alt={slide.title}

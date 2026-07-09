@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone, Compass, Globe, Shield } from 'lucide-react';
 import { brandInfo } from '../../data/travelData';
 import { getVisaConsultLink } from '../../utils/whatsapp';
+import logo from '../../assets/logo.jpg';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,9 +39,9 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10 flex items-center justify-between">
         
         {/* Brand Logo & Name */}
-        <a href="#home" className="flex items-center gap-2 group">
-          <div className="bg-primary hover:bg-secondary text-white p-2 rounded-xl shadow-md transition-colors duration-300">
-            <Compass className="w-6 h-6 animate-spin-slow" />
+        <a href="#home" className="flex items-center gap-3 group">
+          <div className="w-14 h-14 rounded-full overflow-hidden shadow-md border border-primary-50 transition-colors duration-300">
+            <img src={logo} alt="Vav-Tharad Tourism Logo" className="w-full h-full object-cover" />
           </div>
           <div className="flex flex-col">
             <span className="font-heading font-extrabold text-xl lg:text-2xl text-primary tracking-tight leading-none group-hover:text-secondary transition-colors duration-300">

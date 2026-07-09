@@ -45,7 +45,7 @@ const Counter = ({ value, duration = 2000 }) => {
 
 const Statistics = () => {
   return (
-    <section className="relative py-20 bg-gradient-to-r from-primary-800 to-primary-950 text-white overflow-hidden">
+    <section className="relative py-20 bg-gradient-to-r from-primary-800 to-[#020710] text-white overflow-hidden">
       
       {/* Background World Map Vector Tint */}
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=1920')] opacity-5 bg-cover bg-center mix-blend-overlay" />

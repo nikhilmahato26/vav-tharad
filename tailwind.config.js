@@ -19,6 +19,7 @@ export default {
           700: '#092144',
           800: '#06162D',
           900: '#030B17',
+          950: '#020710',
         },
         secondary: {
           DEFAULT: '#32A7FF', // Sky Blue
