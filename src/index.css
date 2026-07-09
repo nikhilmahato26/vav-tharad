@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  }
+
+  body {
+    @apply bg-bgLight text-textDark font-sans selection:bg-secondary/30 selection:text-primary-900;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading tracking-tight;
+  }
+  
+  /* Premium scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #F0F4FA;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #0E3A78, #32A7FF);
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0E3A78;
+  }
+}
+
+@layer components {
+  /* Luxury glassmorphism cards */
+  .glass-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(16px) saturate(160%);
+    -webkit-backdrop-filter: blur(16px) saturate(160%);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+  }
+
+  .glass-card-dark {
+    background: rgba(14, 58, 120, 0.15);
+    backdrop-filter: blur(16px) saturate(160%);
+    -webkit-backdrop-filter: blur(16px) saturate(160%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .glass-nav {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  /* Animated luxury buttons */
+  .btn-premium {
+    @apply relative overflow-hidden transition-all duration-300 font-semibold tracking-wide rounded-full px-8 py-3.5 shadow-luxury flex items-center justify-center gap-2;
+  }
+  
+  .btn-primary-gradient {
+    @apply btn-premium bg-gradient-to-r from-primary to-secondary text-white hover:shadow-luxury-lg hover:translate-y-[-2px] active:translate-y-[0px] hover:shadow-glow;
+  }
+
+  .btn-accent-gradient {
+    @apply btn-premium bg-gradient-to-r from-accent-orange to-accent-pink text-white hover:shadow-luxury-lg hover:translate-y-[-2px] active:translate-y-[0px];
+  }
+
+  .btn-whatsapp-gradient {
+    @apply btn-premium bg-gradient-to-r from-[#18B84A] to-[#0E3A78] text-white hover:shadow-luxury-lg hover:translate-y-[-2px] active:translate-y-[0px];
+  }
+
+  .btn-outline-premium {
+    @apply btn-premium border border-primary/20 bg-white/40 text-primary hover:bg-primary hover:text-white hover:translate-y-[-2px] active:translate-y-[0px];
+  }
+
+  .text-gradient-primary {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+  }
+
+  .text-gradient-accent {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-accent-orange to-accent-pink;
+  }
+
+  /* Image overlays */
+  .gradient-overlay-dark {
+    background: linear-gradient(to top, rgba(19, 32, 59, 0.9) 0%, rgba(19, 32, 59, 0.4) 50%, rgba(19, 32, 59, 0.1) 100%);
+  }
+
+  .gradient-overlay-brand {
+    background: linear-gradient(135deg, rgba(14, 58, 120, 0.85) 0%, rgba(50, 167, 255, 0.7) 100%);
+  }
+}
+
+/* Swiper styling overrides */
+.swiper-pagination-bullet-active {
+  background: #32A7FF !important;
+  width: 24px !important;
+  border-radius: 4px !important;
+  transition: all 0.3s ease;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #0E3A78 !important;
+  background: rgba(255, 255, 255, 0.8);
+  width: 48px !important;
+  height: 48px !important;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(14, 58, 120, 0.1);
+  backdrop-filter: blur(4px);
+  transition: all 0.3s ease;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 18px !important;
+  font-weight: bold;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: #0E3A78;
+  color: #ffffff !important;
+}
+
+/* Masonry grid aspect ratios */
+.gallery-masonry {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 20px;
+  grid-auto-flow: dense;
+}
