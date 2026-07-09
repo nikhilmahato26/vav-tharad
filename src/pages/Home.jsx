@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar/Navbar';
 import Hero from '../components/Hero/Hero';
 import TrustBadges from '../components/Hero/TrustBadges';
 import FeaturedPackages from '../components/FeaturedPackages/FeaturedPackages';
+import DomesticPackages from '../components/DomesticPackages/DomesticPackages';
 import Services from '../components/Services/Services';
 import VisaConsultancy from '../components/VisaConsultancy/VisaConsultancy';
 import WhyChooseUs from '../components/About/WhyChooseUs';
@@ -23,6 +24,7 @@ const Home = () => {
       <Hero />
       <TrustBadges />
       <FeaturedPackages />
+      <DomesticPackages />
       <Services />
       <VisaConsultancy />
       <WhyChooseUs />

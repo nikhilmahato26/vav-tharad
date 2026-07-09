@@ -22,10 +22,10 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Home', href: '#home' },
-    { name: 'Packages', href: '#packages' },
+    { name: 'International', href: '#packages' },
+    { name: 'Domestic', href: '#domestic-packages' },
     { name: 'Visa Services', href: '#visa-services' },
     { name: 'Why Us', href: '#why-us' },
-    { name: 'Gallery', href: '#gallery' },
     { name: 'FAQ', href: '#faq' },
     { name: 'Contact', href: '#contact' },
   ];
