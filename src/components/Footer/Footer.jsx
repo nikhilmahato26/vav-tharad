@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Compass, Mail, Phone, MapPin, Send } from 'lucide-react';
 import { brandInfo, featuredPackages } from '../../data/travelData';
 import { getVisaConsultLink, buildWhatsAppUrl } from '../../utils/whatsapp';
-import logo from '../../assets/logo.jpg';
+import logo from '../../assets/logo.png';
 
 const Footer = () => {
   const [newsletterEmail, setNewsletterEmail] = useState('');

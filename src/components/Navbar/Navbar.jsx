@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone, Compass, Globe, Shield } from 'lucide-react';
 import { brandInfo } from '../../data/travelData';
 import { getVisaConsultLink } from '../../utils/whatsapp';
-import logo from '../../assets/logo.jpg';
+import logo from '../../assets/logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
