@@ -112,7 +112,7 @@ const Footer = () => {
               Tour Packages
             </h4>
             <ul className="space-y-3">
-              {featuredPackages.map((pkg) => (
+              {featuredPackages.slice(0, 6).map((pkg) => (
                 <li key={pkg.id}>
                   <a
                     href="#packages"

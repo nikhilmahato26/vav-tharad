@@ -54,6 +54,7 @@ export const featuredPackages = [
   {
     id: "01",
     name: "Malaysia",
+    category: "international",
     cities: ["Kuala Lumpur", "Genting Highlands"],
     temp: "24–31°C",
     duration: "4 Nights",
@@ -65,6 +66,7 @@ export const featuredPackages = [
   {
     id: "02",
     name: "Thailand",
+    category: "international",
     cities: ["Phuket", "Krabi"],
     temp: "28–33°C",
     duration: "4 Nights",
@@ -76,6 +78,7 @@ export const featuredPackages = [
   {
     id: "03",
     name: "Dubai",
+    category: "international",
     cities: ["Dubai City Tour", "Desert Safari"],
     temp: "25–40°C",
     duration: "4 Nights",
@@ -87,6 +90,7 @@ export const featuredPackages = [
   {
     id: "04",
     name: "Bali",
+    category: "international",
     cities: ["Ubud", "Kuta", "Seminyak"],
     temp: "24–31°C",
     duration: "4 Nights",
@@ -98,6 +102,7 @@ export const featuredPackages = [
   {
     id: "05",
     name: "Vietnam",
+    category: "international",
     cities: ["Hanoi", "Halong Bay"],
     temp: "23–31°C",
     duration: "4 Nights",
@@ -109,6 +114,7 @@ export const featuredPackages = [
   {
     id: "06",
     name: "Singapore",
+    category: "international",
     cities: ["Sentosa Island", "Marina Bay"],
     temp: "26–32°C",
     duration: "4 Nights",
@@ -116,6 +122,54 @@ export const featuredPackages = [
     image: "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?q=80&w=800",
     subtitle: "A futuristic city in a massive garden",
     color: "#32A7FF",
+  },
+  {
+    id: "07",
+    name: "Azerbaijan",
+    category: "international",
+    cities: ["Baku", "Gobustan"],
+    temp: "15–25°C",
+    duration: "4 Nights",
+    price: "₹24,999",
+    image: "https://images.unsplash.com/photo-1584646098078-0360779b5d1f?q=80&w=800",
+    subtitle: "The Land of Fire and architectural wonders",
+    color: "#32A7FF",
+  },
+  {
+    id: "08",
+    name: "Kashmir",
+    category: "domestic",
+    cities: ["Srinagar to Srinagar"],
+    temp: "10–20°C",
+    duration: "5 Nights",
+    price: "₹12,999",
+    image: "https://images.unsplash.com/photo-1566837430227-f35f56868a8a?q=80&w=800",
+    subtitle: "Shikara rides, houseboats, and snow peaks",
+    color: "#18B84A",
+  },
+  {
+    id: "09",
+    name: "Goa",
+    category: "domestic",
+    cities: ["Calangute", "Panaji", "Palolem"],
+    temp: "26–32°C",
+    duration: "3 Nights",
+    price: "₹6,999",
+    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800",
+    subtitle: "Sun-kissed golden beaches and vibrant nightlife",
+    color: "#FF2F78",
+  },
+  {
+    id: "10",
+    name: "Himachal",
+    category: "domestic",
+    cities: ["Manali", "Shimla", "Kufri"],
+    temp: "12–22°C",
+    duration: "4 Nights",
+    price: "₹7,999",
+    image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=800",
+    subtitle: "Pristine valleys and high-altitude adventures",
+    color: "#6A38FF",
   }
 ];
 
