@@ -1,4 +1,4 @@
-const PHONE_NUMBER = "919879911958"; // 9879911958 with 91 country code for India
+const PHONE_NUMBER = "919426494323"; // 9426494323 with 91 country code for India
 
 /**
  * Encodes text and creates wa.me link

@@ -149,7 +149,7 @@ const Contact = () => {
                         type="tel"
                         value={phone}
                         onChange={(e) => setPhone(e.target.value)}
-                        placeholder="9879911958"
+                        placeholder="9426494323"
                         className="w-full bg-white border border-primary-100 rounded-xl px-4 py-3 text-sm font-semibold text-textDark outline-none focus:border-secondary transition-all"
                         required
                       />

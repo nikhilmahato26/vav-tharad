@@ -2,7 +2,7 @@
 
 export const brandInfo = {
   name: "Vav-Tharad Tourism",
-  phone: "9879911958",
+  phone: "9426494323",
   email: "vavtharadtourism@gmail.com",
   address: "Arved Transcube Plaza Business Hub, Ranip, Ahmedabad, Gujarat",
   socials: {
@@ -401,7 +401,7 @@ export const galleryItems = [
 export const faqs = [
   {
     q: "How can I book a travel package?",
-    a: "Booking is simple! Select your desired package, click 'Book Now', which opens a pre-filled WhatsApp inquiry. You can also fill the contact form or call us directly on 9879911958. Our agents will assist you immediately with pricing, options, and documents."
+    a: "Booking is simple! Select your desired package, click 'Book Now', which opens a pre-filled WhatsApp inquiry. You can also fill the contact form or call us directly on 9426494323. Our agents will assist you immediately with pricing, options, and documents."
   },
   {
     q: "Do you provide complete visa services?",
